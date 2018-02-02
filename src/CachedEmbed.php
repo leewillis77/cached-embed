@@ -1,6 +1,6 @@
 <?php
 
-namespace Leewillis77\CachedEmbed;;
+namespace Leewillis77\CachedEmbed;
 
 use Embed\Embed;
 use Illuminate\Support\Facades\Cache;

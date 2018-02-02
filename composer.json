@@ -25,6 +25,13 @@
             "Leewillis77\\CachedEmbed\\": "src"
         }
     },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Leewillis77\\CachedEmbed\\CachedEmbedServiceProvider"
+            ]
+        }
+    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
