@@ -1,9 +1,7 @@
 # CachedEmbed
-
-Laravel 5.5 package to cache embed information retrieved using the https://github.com/oscarotero/Embed package.
+A Laravel 5.5 package to cache embed information retrieved using the https://github.com/oscarotero/Embed package.
 
 ## Installation
-
 Add the package to your Laravel project using composer:
 
 ```bash
@@ -27,7 +25,6 @@ You can change the following values in the configuration file (`config/cachedemb
 Simply use `CachedEmbed::create` instead of `Embed::create`, e.g
 
 ```php
-
 <?php
 
 use Leewillis77\CachedEmbed\CachedEmbed;
@@ -38,21 +35,26 @@ $data = CachedEmbed::create('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
 As with the underlying embed library, you can pass arguments as the second variable, e.g.
 
 ```php
-
 <?php
 
 use Leewillis77\CachedEmbed\CachedEmbed;
 
-$data = CachedEmbed::create('https://www.youtube.com/watch?v=dQw4w9WgXcQ', [ 'choose_bigger_image' => true ]);
+$data = CachedEmbed::create(
+	'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+	[ 'choose_bigger_image' => true ]
+);
 ```
 
 The library also supports setting a specific expiry time for individual embeds via a third parameter:
 
 ```php
-
 <?php
 
 use Leewillis77\CachedEmbed\CachedEmbed;
 
-$data = CachedEmbed::create('https://www.youtube.com/watch?v=dQw4w9WgXcQ', [ 'choose_bigger_image' => true ], 30);
+$data = CachedEmbed::create(
+	'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+	[ 'choose_bigger_image' => true ],
+	30
+);
 ```
