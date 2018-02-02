@@ -2,7 +2,9 @@
 Laravel 5.5 package to cache embed information from https://github.com/oscarotero/Embed
 
 ## Installation
+
 Add the package to your Laravel project using composer:
+
 ```bash
 $ composer require leewillis77/cached-embed
 ```
