@@ -5,7 +5,7 @@
         "Laravel",
         "embed",
         "oscarotero/embed",
-        "cache",
+        "cache"
     ],
     "homepage": "https://github.com/leewillis77/cached-embed",
     "license": "MIT",
