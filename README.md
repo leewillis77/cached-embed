@@ -2,15 +2,15 @@
 Laravel 5.5 package to cache embed information from https://github.com/oscarotero/Embed
 
 ## Installation
-
-```sh
+Add the package to your Laravel project using composer:
+```bash
 $ composer require leewillis77/cached-embed
 ```
 
 ## Configuration
 You can publish the configuration file using the following artisan command:
 
-```sh
+```bash
 $ php artisan vendor:publish --provider="Leewillis77\CachedEmbed\CachedEmbedServiceProvider" --tag="config"  
 ```
 
