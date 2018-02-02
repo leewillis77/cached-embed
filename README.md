@@ -1,7 +1,7 @@
 # CachedEmbed
 A Laravel 5.5 package to cache embed information retrieved using the https://github.com/oscarotero/Embed package.
 
-## Installation
+## Installation
 Add the package to your Laravel project using composer:
 
 ```bash
