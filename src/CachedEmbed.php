@@ -7,10 +7,10 @@ use Illuminate\Support\Facades\Cache;
 
 class CachedEmbed
 {
-    public static function create($url, $args)
+    public static function create($url, $args, $expiry = null)
     {
         $store = config('cachedembed.store', '');
-        $expiry = config('cachedembed.expiry', 43200);
+        $expiry = $expiry ?? config('cachedembed.expiry', 43200);
         if (!empty($store)) {
             return Cache::store($store)->remember($url, $expiry, function () use ($url, $args) {
                 // Grab the embed data.
