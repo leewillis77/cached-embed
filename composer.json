@@ -29,7 +29,7 @@
     "extra": {
         "laravel": {
             "aliases": {
-                "CachedEmbed": "Leewillis77\\CachedEmbed\\CachedEmbed",
+                "CachedEmbed": "Leewillis77\\CachedEmbed\\CachedEmbed"
             }
         }
     },
