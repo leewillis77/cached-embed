@@ -1,0 +1,7 @@
+<?xml version="1.0"?>
+<ruleset name="Ademti Laravel Project">
+	<description>Coding standard definitions for Ademti Software Ltd. Laravel projects</description>
+	<rule ref="PSR2"/>
+	<file>src/</file>
+	<file>config/</file>
+</ruleset>
