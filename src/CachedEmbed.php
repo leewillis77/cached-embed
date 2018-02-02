@@ -16,7 +16,7 @@ class CachedEmbed
                 // Grab the embed data.
                 $data = Embed::create($url, $args);
                 // Pre-load image attribute in the object to save work later.
-                // Otherwise we end up doing 200ms work to retrieve the image URL *after* retrieving from the cache.
+                // Otherwise we have to redo the image extraction every time, rather than just once before caching.
                 $data->image;
                 return $data;
             });
@@ -25,7 +25,7 @@ class CachedEmbed
                 // Grab the embed data.
                 $data = Embed::create($url, $args);
                 // Pre-load image attribute in the object to save work later.
-                // Otherwise we end up doing 200ms work to retrieve the image URL *after* retrieving from the cache.
+                // Otherwise we have to redo the image extraction every time, rather than just once before caching.
                 $data->image;
                 return $data;
             });
