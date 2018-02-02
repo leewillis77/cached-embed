@@ -31,3 +31,25 @@ use Leewillis77\CachedEmbed\CachedEmbed;
 
 $data = CachedEmbed::create('https://www.youtube.com/watch?v=dQw4w9WgXcQ');
 ```
+
+As with the underlying embed library, you can pass arguments as the second variable, e.g.
+
+```php
+
+<?php
+
+use Leewillis77\CachedEmbed\CachedEmbed;
+
+$data = CachedEmbed::create('https://www.youtube.com/watch?v=dQw4w9WgXcQ', [ 'choose_bigger_image' => true ]);
+```
+
+The library also supports setting a specific expiry time for individual embeds via a third parameter:
+
+```php
+
+<?php
+
+use Leewillis77\CachedEmbed\CachedEmbed;
+
+$data = CachedEmbed::create('https://www.youtube.com/watch?v=dQw4w9WgXcQ', [ 'choose_bigger_image' => true ], 30);
+```
