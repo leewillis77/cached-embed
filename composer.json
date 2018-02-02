@@ -25,13 +25,6 @@
             "Leewillis77\\CachedEmbed\\": "src"
         }
     },
-    "extra": {
-        "laravel": {
-            "aliases": {
-                "CachedEmbed": "Leewillis77\\CachedEmbed\\CachedEmbed"
-            }
-        }
-    },
     "minimum-stability": "dev",
     "prefer-stable": true
 }
