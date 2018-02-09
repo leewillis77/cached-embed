@@ -7,7 +7,7 @@ use Illuminate\Support\Facades\Cache;
 
 class CachedEmbed
 {
-    public static function create($url, $args, $expiry = null)
+    public static function create($url, $args = [], $expiry = null)
     {
         $store = config('cachedembed.store', '');
         $expiry = $expiry ?? config('cachedembed.expiry', 43200);
