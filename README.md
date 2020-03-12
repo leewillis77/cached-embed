@@ -1,5 +1,5 @@
 # CachedEmbed
-A package for Laravel 5.5+ and Laravel 6.x to cache embed information retrieved using the https://github.com/oscarotero/Embed package.
+A package for Laravel 5.5+, Laravel 6.x and Laravel 7.x to cache embed information retrieved using the https://github.com/oscarotero/Embed package.
 
 [![Buy us a tree](https://img.shields.io/badge/Treeware-%F0%9F%8C%B3-lightgreen?style=for-the-badge)](https://offset.earth/ademtisoftware?gift-trees)
 
