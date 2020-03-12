@@ -1,6 +1,6 @@
 {
     "name": "leewillis77/cached-embed",
-    "description": "Laravel package to cache embed information from https://github.com/oscarotero/Embed. Works with Laravel 5.5 to 5.8",
+    "description": "Laravel package to cache embed information from https://github.com/oscarotero/Embed. Works with Laravel 5.5 or higher",
     "keywords": [
         "Laravel",
         "oembed",
