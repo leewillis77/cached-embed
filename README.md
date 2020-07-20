@@ -1,7 +1,11 @@
 # CachedEmbed
 A package for Laravel 5.5+ and above to cache embed information retrieved using the https://github.com/oscarotero/Embed package.
 
+<div style="max-width: 200px">
+
 [![We offset our carbon footprint via Ecologi](https://toolkit.ecologi.com/badges/cpw/5e3abd8bd52a6300171beadb?black=true&landscape=true)](https://ecologi.com/ademtisoftware?gift-trees)
+
+</div>
 
 If you use this package in production, we ask that you [**buy the world a tree**](https://ecologi.com/ademtisoftware?gift-trees) to thank us for our work. By contributing to our forest you’ll be creating employment for local families and restoring wildlife habitats.
 
